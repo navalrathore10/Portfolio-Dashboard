@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Abril+Fatface&family=Allison&family=Berkshire+Swash&family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Cormorant:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Inconsolata:wght@200..900&family=Inter:wght@100..900&family=Italiana&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Podkova:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Reenie+Beanie&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&family=Syne:wght@400..800&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+  font-family: "maz-bold-it";
+  src: url("/public/fonts/MaziusDisplay-ExtraItalicBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "maz-it";
+  src: url("/public/fonts/MaziusDisplay-Extraitalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "andy";
+  src: url("/public/fonts/Andstay FREE.otf") format("opentype");
+}
+
+
+
+* {
+  transition: all ease-in-out 500ms;
+}
+
+
+.text-syne {
+  font-family: "Syne", sans-serif;
+}
+
+.text-andy {
+  font-family: "andy";
+}
+
+.text-mazbit {
+  font-family: "maz-bold-it";
+}
+
+.text-mazit {
+  font-family: "maz-bold-it";
+}
+
+.text-dm-serif {
+  font-family: "DM Serif Display", serif;
+}
+
+.text-inter {
+  font-family: "Inter", system-ui;
+}
+
+.text-code {
+  font-family: "Source Code Pro", system-ui;
+}
+
+.text-designer {
+  font-family: "Reenie Beanie", cursive;
+}
+
+/* ------------------------------------------------------------------   Color Theme Variables */
+:root {
+  --b3-color: #3490dc;
+  --d17-color: #171717;
+  --d18-color: #181818;
+  --d19-color: #191919;
+  --d20-color: #202020;
+  --d24-color: #242424;
+  --le3-color: #e3e3e3;
+  --y3-color: #ffed4a;
+  --background-color: #f8fafc;
+  --darkop10-color: #0000001a;
+  --darkop20-color: #00000033;
+  --darkop40-color: #00000066;
+  --darkop60-color: #00000099;
+  --darkop80-color: #000000cc;
+  --lightop10-color: #ffffff1a;
+  --lightop20-color: #ffffff33;
+  --lightop40-color: #ffffff66;
+  --lightop60-color: #ffffff99;
+  --lightop80-color: #ffffffcc;
+
+
+  --prim-color: white;
+  --dark-color: gray;
+}
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer utilities {
+  .animate-marquee {
+    animation: marquee 20s linear infinite;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+}

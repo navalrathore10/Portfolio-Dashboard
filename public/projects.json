@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "Picload Website",
+    "shortName": "Picload ",
+    "description": "A responsive photography portfolio showcasing smooth animations.",
+    "details": "This Project was initially made for an Assignment.",
+    "techStack": ["React", "Tailwind"],
+    "link": "https://picloadnavalrathore.netlify.app/",
+    "image": "picload-image-url",
+    "imagePath": "../../public/img/picload1-min.png",
+    "projectUrl": "https://picloadnavalrathore.netlify.app/",
+    "best": true
+  },
+  {
+    "id": 2,
+    "name": "ChaTinger Chat UI",
+    "shortName": "Chatinger",
+    "description": "A front-end simulation of chat application features.",
+    "details": "This Project was initially made for an Assignment.",
+    "techStack": ["React","Tailwind"],
+    "link": "https://chatinger.vercel.app/",
+    "image": "chattinger-image-url",
+    "imagePath": "",
+    "projectUrl": "https://chatinger.vercel.app/",
+    "best": true
+  },
+  {
+    "id": 3,
+    "name": "ASM Spaces Web Page",
+    "shortName": "ASM Spaces",
+    "description": "A design-focused webpage demonstrating UI design capabilities.",
+    "details": "This Project was initially made for an Assignment.",
+    "techStack": ["Angular", "Express"],
+    "link": "https://navalrathore10.github.io/ASM.Spaces/",
+    "image": "asmspaces-image-url",
+    "imagePath": "../../public/img/asm1-min.png",
+    "projectUrl": "https://navalrathore10.github.io/ASM.Spaces/",
+    "best": false
+  },
+  {
+    "id": 4,
+    "name": "Zomato One-Page Clone UI",
+    "shortName": "Zom-UI",
+    "description": "A UI clone of Zomato's homepage, built during learning phase.",
+    "details": "This Project was initially made for an Assignment.",
+    "techStack": ["HTML", "CSS"],
+    "link": "https://navalrathore10.github.io/Zomato.hc/",
+    "image": "zomato-image-url",
+    "imagePath": "",
+    "projectUrl": "https://navalrathore10.github.io/Zomato.hc/",
+    "best": false
+  },
+  {
+    "id": 5,
+    "name": "Dominate with JS Web Showdown",
+    "shortName": "DOMinate",
+    "description": "A webpage demonstrating JavaScript DOM manipulation.",
+    "details": "This Project was initially made for an Assignment.",
+    "techStack": ["HTML","CSS","JavaScript"],
+    "link": "https://navalrathore10.github.io/DOMinate-with-Js-/",
+    "image": "dominate-image-url",
+    "imagePath": "",
+    "projectUrl": "https://navalrathore10.github.io/DOMinate-with-Js-/",
+    "best": true
+  },
+  {
+    "id": 6,
+    "name": "Restaurant Website",
+    "shortName": "Resto",
+    "description": "Details about Project Three",
+    "details": "This Project was initially made for an Assignment.",
+    "techStack": ["HTML", "CSS", "VanilaJS"],
+    "link": "https://navalrathore10.github.io/Restaurant_Website/",
+    "image": "restaurant-image-url",
+    "imagePath": "../../public/img/resto1-min.png",
+    "projectUrl": "https://navalrathore10.github.io/Restaurant_Website/",
+    "best": false
+  }
+]
