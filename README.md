@@ -1,6 +1,4 @@
-Here’s the exact markdown format for your `README.md` file, so when you copy-paste it, it should render properly:
 
-```markdown
 # Portfolio Dashboard
 
 A personal portfolio dashboard showcasing my work and skills in web development, photography, and design. Built using **React.js** and **Tailwind CSS** with a sleek design and a dark/light mode toggle. The project data is managed through a local JSON file for seamless display across the website.
