@@ -47,7 +47,7 @@ export default function AboutMe() {
             description: "Details about Project One",
             details: "This Project was initially made for an Assignment.",
             techStack: ["React", "Tailwind"],
-            imagePath: "../../public/img/picload1-min.png", // Image path or URL
+            imagePath: "/img/picload1-min.png", // Image path or URL
             projectUrl: "https://picloadnavalrathore.netlify.app/" // Redirect to Live Project 
         },
         {
@@ -56,7 +56,7 @@ export default function AboutMe() {
             description: "Details about Project Two",
             details: "This Project was initially made for an Assignment.",
             techStack: ["Angular", "Express"],
-            imagePath: "../../public/img/asm1-min.png", // Image path or URL
+            imagePath: "img/asm1-min.png", // Image path or URL
             projectUrl: "https://navalrathore10.github.io/ASM.Spaces/" // Redirect to Live Project 
         },
         {
@@ -65,7 +65,7 @@ export default function AboutMe() {
             description: "Details about Project Three",
             details: "This Project was initially made for an Assignment.",
             techStack: ["HTML", "CSS", "VanilaJS"],
-            imagePath: "../../public/img/resto1-min.png", // Image path or URL
+            imagePath: "/img/resto1-min.png", // Image path or URL
             projectUrl: "https://navalrathore10.github.io/Restaurant_Website/" // Redirect to Live Project 
         },
         // Add more projects as needed
