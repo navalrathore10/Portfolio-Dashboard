@@ -64,6 +64,3 @@ _To be added later._
 ## License
 
 This project is licensed under the MIT License.
-```
-
-Now, when you copy this text into a `README.md` file and view it on GitHub, it should format correctly. Let me know if you need further adjustments!
