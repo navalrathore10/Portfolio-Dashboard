@@ -364,7 +364,7 @@ export default function Home() {
               <a href='https://www.instagram.com/naval_rathore10/' className={`p-2 text-5xl hover:text-yellow-300`}>
                 <FaInstagram/>
               </a>
-              <a href='tel:+916230031442' className={`p-2 text-5xl hover:text-yellow-300`}>
+              <a href='https://wa.me/916230031442' className={`p-2 text-5xl hover:text-yellow-300`}>
                 <FaWhatsapp/>
               </a>
 
