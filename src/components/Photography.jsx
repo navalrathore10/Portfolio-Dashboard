@@ -121,7 +121,7 @@ export default function Photography() {
 
     return (
         <>
-            <div className={`h-min mt-5 rounded-3xl w-full p-3 mb-2 md:mb-0 md:p-11 ${toggled ? 'bg-dark17 text-lighte3' : 'bg-lighte3 text-dark17'}`}>
+            <div className={`h-min mt-5 rounded-3xl w-full p-3 mb-5 md:mb-0 md:p-11 ${toggled ? 'bg-dark17 text-lighte3' : 'bg-lighte3 text-dark17'}`}>
                 <img
                     src={titlewhite}
                     alt=""
