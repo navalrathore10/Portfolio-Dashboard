@@ -15,7 +15,7 @@ const FadeSlider = () => {
             link:'work/development'
         },
         {
-            image: 'public/img/grad.png',
+            image: '/public/img/grad.png',
             text: 'Design',
             link:'work/designing'
         }
