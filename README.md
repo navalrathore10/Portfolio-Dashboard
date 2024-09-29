@@ -27,11 +27,11 @@ A personal portfolio dashboard showcasing my work and skills in web development,
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-portfolio-dashboard.git
+   git clone https://github.com/navalrathore10/Portfolio-Dashboard.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd your-portfolio-dashboard
+   cd Portfolio-Dashboard
    ```
 3. Install the dependencies:
    ```bash
