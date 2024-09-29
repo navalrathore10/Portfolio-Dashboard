@@ -121,7 +121,7 @@ export default function Photography() {
 
     return (
         <>
-            <div className={`h-min mt-5 rounded-3xl w-full p-3 md:p-11 ${toggled ? 'bg-dark17 text-lighte3' : 'bg-lighte3 text-dark17'}`}>
+            <div className={`h-min mt-5 rounded-3xl w-full p-3 mb-2 md:mb-0 md:p-11 ${toggled ? 'bg-dark17 text-lighte3' : 'bg-lighte3 text-dark17'}`}>
                 <img
                     src={titlewhite}
                     alt=""
@@ -129,19 +129,19 @@ export default function Photography() {
                 />
 
                 <div className="content w-full h-min border-black">
-                    <div className="grid grid-cols-3 gap-1 md:gap-5 bg-lighte3 p-1 md:p-3 rounded-xl relative z-10">
+                    <div className="grid grid-cols-3 gap-3 md:gap-1 md:gap-5 bg-lighte3 p-1 md:p-3 rounded-xl relative z-10">
                         {/* First Column */}
-                        <div className="col-span-3 sm:col-span-1 flex flex-col gap-1 md:gap-5">
+                        <div className="col-span-3 sm:col-span-1 flex flex-col gap-1 gap-3 md:gap-5">
                             {renderImages(0, 4)} {/* Rendering 1, 2, 3, 11 */}
                         </div>
 
                         {/* Second Column */}
-                        <div className="col-span-3 sm:col-span-1 flex flex-col gap-1 md:gap-5">
+                        <div className="col-span-3 sm:col-span-1 flex flex-col gap-1 gap-3 md:gap-5">
                             {renderImages(4, 8)} {/* Rendering 4, 5, 6, 10 */}
                         </div>
 
                         {/* Third Column */}
-                        <div className="col-span-3 sm:col-span-1 flex flex-col gap-1 md:gap-5">
+                        <div className="col-span-3 sm:col-span-1 flex flex-col gap-1 gap-3 md:gap-5">
                             {renderImages(8, 12)} {/* Rendering 7, 8, 9, 12 */}
                         </div>
                     </div>
