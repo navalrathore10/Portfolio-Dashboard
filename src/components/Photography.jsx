@@ -33,14 +33,14 @@ export default function Photography() {
 
                 <div className="content w-full h-min border-black">
                     <div className={`grid grid-cols-3 gap-1 md:gap-5 bg-lighte3 p-1 rounded-xl relative z-10`}>
-                        <div className="col-span-1 flex flex-col gap-1 md:gap-5">
+                        <div className="col-span-3 sm:col-span-1 flex flex-col gap-1 md:gap-5">
                             <img src={unsplashGallery?.image1} alt="" className='w-full object-cover rounded-md' />
                             <img src={unsplashGallery?.image2} alt="" className='w-full object-cover rounded-md' />
                             <img src={unsplashGallery?.image3} alt="" className='w-full object-cover rounded-md' />
                             <img src={unsplashGallery?.image11} alt="" className='w-full object-cover rounded-md' />
 
                         </div>
-                        <div className="col-span-1 flex flex-col gap-1 md:gap-5">
+                        <div className="col-span-3 sm:col-span-1 flex flex-col gap-1 md:gap-5">
                             <img src={unsplashGallery?.image4} alt="" className='w-full object-cover rounded-md' />
                             <img src={unsplashGallery?.image5} alt="" className='w-full object-cover rounded-md' />
                             <img src={unsplashGallery?.image6} alt="" className='w-full object-cover rounded-md' />
@@ -49,7 +49,7 @@ export default function Photography() {
                                 alt="" className={`w-full object-cover rounded-md invert`} />
 
                         </div>
-                        <div className="col-span-1 flex flex-col gap-1 md:gap-5">
+                        <div className="col-span-3 sm:col-span-1 flex flex-col gap-1 md:gap-5">
                             <img src={unsplashGallery?.image7} alt="" className='w-full object-cover rounded-md' />
                             <img src={unsplashGallery?.image8} alt="" className='w-full object-cover rounded-md' />
                             <img src={unsplashGallery?.image9} alt="" className='w-full object-cover rounded-md' />

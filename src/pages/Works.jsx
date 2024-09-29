@@ -35,7 +35,7 @@ export default function Works() {
                 to={nicheItem.name}
                 onClick={() => { setNiche(nicheItem.name); }}
                 key={nicheItem.id}
-                className={`w-[120px] md:w-[150px] h-[50px] cursor-pointer flex justify-center items-center relative
+                className={`text-sm text-syne w-[120px] md:w-[150px] h-[50px] cursor-pointer flex justify-center items-center relative
                   ${!toggled ? 'hover:bg-gradient-to-r from-transparent to transparent via-lightop10' : ''}`}>
                 {nicheItem.name}
                 {niche === nicheItem.name && (
