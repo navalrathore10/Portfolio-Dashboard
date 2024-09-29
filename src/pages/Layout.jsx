@@ -14,7 +14,7 @@ export default function Layout() {
         <div className="sidebar-show hidden md:block">
           <Sidebar toggled={toggled} onToggle={darkModeHandler} />
         </div>
-        <div className="bottombar block md:hidden z-20">
+        <div className="bottombar block md:hidden z-30">
           <Bottombar toggled={toggled} onToggle={darkModeHandler} />
         </div>
         <ScrollToTop />
