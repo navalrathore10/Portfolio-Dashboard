@@ -37,32 +37,31 @@ export default function Home() {
 
   // console.log('projectNames', projectNames);
   // console.log('projectUrls', projectUrls);
-  console.log('Best Projects', bestProjects);
 
   // Object to store the images corresponding to each div id
-  // const hoverImages = {
-  //   about: "img/aboutpage.png",
-  //   picload: "img/picload1-min.png",
-  //   asm: "img/asm1-min.png",
-  //   dom: "img/dom1-min.png",
-  // };
+  const hoverImages = {
+    about: "img/aboutpage.png",
+    picload: "img/picload1-min.png",
+    asm: "img/asm1-min.png",
+    dom: "img/dom1-min.png",
+  };
 
-  // // Function to handle mouse movement
-  // const handleMouseMove = (e) => {
-  //   setMousePos({ x: e.clientX, y: e.clientY });
-  // };
+  // Function to handle mouse movement
+  const handleMouseMove = (e) => {
+    setMousePos({ x: e.clientX, y: e.clientY });
+  };
 
-  // // Function to handle mouse enter
-  // const handleMouseEnter = (e) => {
-  //   const divId = e.target.getAttribute("data-id");
-  //   setCurrentImage(hoverImages[divId]);
-  //   setHovering(true);
-  // };
+  // Function to handle mouse enter
+  const handleMouseEnter = (e) => {
+    const divId = e.target.getAttribute("data-id");
+    setCurrentImage(hoverImages[divId]);
+    setHovering(true);
+  };
 
-  // // Function to handle mouse leave
-  // const handleMouseLeave = () => {
-  //   setHovering(false);
-  // };
+  // Function to handle mouse leave
+  const handleMouseLeave = () => {
+    setHovering(false);
+  };
 
 
 
@@ -84,9 +83,9 @@ export default function Home() {
               :
               '10px 10px 20px #b3b3b3 ,-10px -10px 20px #ffffff'
           }}
-        // onMouseMove={handleMouseMove}
-        // onMouseEnter={handleMouseEnter}
-        // onMouseLeave={handleMouseLeave}
+          onMouseMove={handleMouseMove}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
         >
 
           <div data-id="about" className="abt_text h-[100px] bg-darkop40 overflow-hidden p-4 rounded-b-3xl text-white group-hover:h-[150px] group
@@ -254,16 +253,16 @@ export default function Home() {
       {/*------------------------------------------------------------------- row-2 */}
 
       <Link to={'/works/development'}
-        class={`w-full h-[100px] inline-flex flex-nowrap my-5  shadow-xl overflow-hidden rounded-3xl
+        className={`w-full h-[100px] inline-flex flex-nowrap my-5  shadow-xl overflow-hidden rounded-3xl
                text-8xl text-syne
               ${toggled ? 'bg-dark17 text-lighte3' : 'bg-white text-dark17'}`}>
-        <ul class="flex items-center justify-center font-semibold md:justify-start [&_li]:mx-8 animate-infinite-scroll  ">
+        <ul className="flex items-center justify-center font-semibold md:justify-start [&_li]:mx-8 animate-infinite-scroll  ">
           <li className=''>Projects</li>
           <li className=''>Projects</li>
           <li className=''>Projects</li>
           <li className=''>Projects</li>
         </ul>
-        <ul class="flex items-center justify-center font-semibold md:justify-start [&_li]:mx-8 animate-infinite-scroll" aria-hidden="true">
+        <ul className="flex items-center justify-center font-semibold md:justify-start [&_li]:mx-8 animate-infinite-scroll" aria-hidden="true">
           <li className=''>Projects</li>
           <li className=''>Projects</li>
           <li className=''>Projects</li>
@@ -351,25 +350,25 @@ export default function Home() {
         </div>
         <div className={`col-span-6 relative lg:col-span-2 border-2 rounded-3xl h-min p-5 mb-5 shadow-xl
           ${toggled ? 'bg-lightop60 border-white' : 'bg-dark24 border-dark17'}`}>
-            <div className="inner grid grid-cols-5 gap-2 mb-5">
-              <a href='https://www.linkedin.com/in/naval-rathore-972045296/' className={`p-2 text-5xl hover:text-yellow-300`}>
-                <FaLinkedin/>
-              </a>
-              <a href='https://github.com/navalrathore10' className={`p-2 text-5xl hover:text-yellow-300`}>
-                <FaGithub/>
-              </a>
-              <a href='https://unsplash.com/@navalrathore_10' className={`p-2 text-5xl hover:text-yellow-300`}>
-                <FaUnsplash/>
-              </a>
-              <a href='https://www.instagram.com/naval_rathore10/' className={`p-2 text-5xl hover:text-yellow-300`}>
-                <FaInstagram/>
-              </a>
-              <a href='https://wa.me/916230031442' className={`p-2 text-5xl hover:text-yellow-300`}>
-                <FaWhatsapp/>
-              </a>
+          <div className="inner grid grid-cols-5 gap-2 mb-5">
+            <a href='https://www.linkedin.com/in/naval-rathore-972045296/' className={`p-2 text-5xl hover:text-yellow-300`}>
+              <FaLinkedin />
+            </a>
+            <a href='https://github.com/navalrathore10' className={`p-2 text-5xl hover:text-yellow-300`}>
+              <FaGithub />
+            </a>
+            <a href='https://unsplash.com/@navalrathore_10' className={`p-2 text-5xl hover:text-yellow-300`}>
+              <FaUnsplash />
+            </a>
+            <a href='https://www.instagram.com/naval_rathore10/' className={`p-2 text-5xl hover:text-yellow-300`}>
+              <FaInstagram />
+            </a>
+            <a href='https://wa.me/916230031442' className={`p-2 text-5xl hover:text-yellow-300`}>
+              <FaWhatsapp />
+            </a>
 
-            </div>
-          <div className={`absolute bottom-3 right-5 text-lg text-syne ${toggled?'text-darkop40':'text-lightop40'}`}>Socials</div>
+          </div>
+          <div className={`absolute bottom-3 right-5 text-lg text-syne ${toggled ? 'text-darkop40' : 'text-lightop40'}`}>Socials</div>
 
         </div>
       </div>

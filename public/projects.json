@@ -36,7 +36,7 @@
     "image": "asmspaces-image-url",
     "imagePath": "../../public/img/asm1-min.png",
     "projectUrl": "https://navalrathore10.github.io/ASM.Spaces/",
-    "best": false
+    "best": true
   },
   {
     "id": 4,
@@ -62,7 +62,7 @@
     "image": "dominate-image-url",
     "imagePath": "",
     "projectUrl": "https://navalrathore10.github.io/DOMinate-with-Js-/",
-    "best": true
+    "best": false
   },
   {
     "id": 6,
