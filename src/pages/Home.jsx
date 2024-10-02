@@ -75,7 +75,9 @@ export default function Home() {
         {/*------------------------------------------------------------------- facecard */}
 
         <div data-id="about" className={`col-span-8 sm:col-span-8 xl:col-span-3 min-h-[500px] text-syne  bg-red-500 rounded-3xl flex flex-col justify-end overflow-hidden group
-                    bg-[url('assets/img/pic.jpg')]
+                    bg-[url('assets/img/pic.jpg')] 
+                    lg:bg-[url('assets/img/pic2.jpg')] grayscale hover:grayscale-0
+                    xl:bg-[url('assets/img/pic.jpg')]
                     bg-cover bg-center cursor-pointer border-[1.5px] ${!toggled ? 'border-[#242424]' : 'border-white'}`}
           style={{
             boxShadow: !toggled ?
@@ -273,26 +275,25 @@ export default function Home() {
       {/*------------------------------------------------------------------- row-3 */}
 
       <div className="grid grid-cols-6 gap-5">
-        <div className={`col-span-6 lg:col-span-2 border-white ${toggled ? 'bg-lightop60 text-darkop40' : 'text-lightop40 bg-dark24'}
-          shadow-xl rounded-3xl h-min min-h-[300px] p-5 relative`}>
+        <div className={`col-span-6 lg:col-span-3 xl:col-span-2 border-2 ${toggled ? 'bg-lightop10 text-darkop40 border-white' : 'text-lightop40 bg-dark19 border-dark24'}
+          shadow-xl rounded-3xl h-min lg:min-h-[300px] p-5 relative`}>
           <div className="inner flex gap-5 flex-wrap items-start">
-
             <TechStackIcon name="js" title='JavaScript'
-              className={`overflow-hidden min-w-[25%] max-w-[28%] lg:min-w-[80px] lg:max-w-[80px] p-3 rounded-xl drop-shadow-lg cursor-pointer ${toggled ? 'bg-yellow-200' : 'bg-yellow-200'}`} />
+              className={`overflow-hidden max-w-[80px] min-w-[60px] lg:min-w-[80px] lg:max-w-[80px] p-3 rounded-xl drop-shadow-lg cursor-pointer ${toggled ? 'bg-yellow-200' : 'bg-yellow-200'}`} />
             <TechStackIcon name="reactjs" title='reactJs'
-              className={`overflow-hidden min-w-[25%] max-w-[28%] lg:min-w-[80px] lg:max-w-[80px] p-3 rounded-xl drop-shadow-lg cursor-pointer ${toggled ? 'bg-blue-600' : 'bg-blue-600'}`} />
+              className={`overflow-hidden max-w-[80px] min-w-[60px] lg:min-w-[80px] lg:max-w-[80px] p-3 rounded-xl drop-shadow-lg cursor-pointer ${toggled ? 'bg-blue-600' : 'bg-blue-600'}`} />
             <TechStackIcon name="html5" title='JavaScript'
-              className={`overflow-hidden min-w-[25%] max-w-[28%] lg:min-w-[80px] lg:max-w-[80px] p-3 rounded-xl drop-shadow-lg cursor-pointer ${toggled ? 'bg-orange-300' : 'bg-orange-300'}`} />
+              className={`overflow-hidden max-w-[80px] min-w-[60px] lg:min-w-[80px] lg:max-w-[80px] p-3 rounded-xl drop-shadow-lg cursor-pointer ${toggled ? 'bg-orange-300' : 'bg-orange-300'}`} />
             <TechStackIcon name="css3" title='JavaScript'
-              className={`overflow-hidden min-w-[25%] max-w-[28%] lg:min-w-[80px] lg:max-w-[80px] p-3 rounded-xl drop-shadow-lg cursor-pointer ${toggled ? 'bg-white' : 'bg-white'}`} />
+              className={`overflow-hidden max-w-[80px] min-w-[60px] lg:min-w-[80px] lg:max-w-[80px] p-3 rounded-xl drop-shadow-lg cursor-pointer ${toggled ? 'bg-white' : 'bg-white'}`} />
             <TechStackIcon name="nodejs" title='JavaScript'
-              className={`overflow-hidden min-w-[25%] max-w-[28%] lg:min-w-[80px] lg:max-w-[80px] p-3 rounded-xl drop-shadow-lg cursor-pointer ${toggled ? 'bg-lime-200' : 'bg-lime-200'}`} />
+              className={`overflow-hidden max-w-[80px] min-w-[60px] lg:min-w-[80px] lg:max-w-[80px] p-3 rounded-xl drop-shadow-lg cursor-pointer ${toggled ? 'bg-lime-200' : 'bg-lime-200'}`} />
             <TechStackIcon name="mongodb" title='JavaScript'
-              className={`overflow-hidden min-w-[25%] max-w-[28%] lg:min-w-[80px] lg:max-w-[80px] p-3 rounded-xl drop-shadow-lg cursor-pointer ${toggled ? 'bg-yellow-100' : 'bg-yellow-100'}`} />
+              className={`overflow-hidden max-w-[80px] min-w-[60px] lg:min-w-[80px] lg:max-w-[80px] p-3 rounded-xl drop-shadow-lg cursor-pointer ${toggled ? 'bg-yellow-100' : 'bg-yellow-100'}`} />
           </div>
           <div className={`absolute bottom-3 right-5 text-lg text-syne`}>Tech Stack</div>
         </div>
-        <div className={`col-span-6 lg:col-span-2 ${toggled ? 'border-white' : 'border-dark24'} border-2 rounded-3xl h-[300px] overflow-hidden shadow-xl`}>
+        <div className={`col-span-6 lg:col-span-3 xl:col-span-2 ${toggled ? 'border-white' : 'border-dark24'} border-2 rounded-3xl h-[300px] overflow-hidden shadow-xl`}>
           <div className={`unsplash w-full h-full md:min-h-[300px] lg:min-h-min p-5 rounded-xl relative flex flex-col justify-between gap-5 overflow-hidden
                     ${!toggled ? 'text-lighte3 bg-dark19 border-dark24' : 'bg-lightop10 border-white text-dark24'}`}>
 
@@ -348,8 +349,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className={`col-span-6 relative lg:col-span-2 border-2 rounded-3xl h-min p-5 mb-5 shadow-xl
-          ${toggled ? 'bg-lightop60 border-white' : 'bg-dark24 border-dark17'}`}>
+        <div className={`col-span-6 lg:col-span-3 xl:col-span-2 relative  border-2 rounded-3xl h-min p-5 mb-5 shadow-xl
+          ${toggled ? 'bg-lightop10 border-white' : 'bg-dark19 border-dark24'}`}>
           <div className="inner grid grid-cols-5 gap-2 mb-5">
             <a href='https://www.linkedin.com/in/naval-rathore-972045296/' className={`p-2 text-5xl hover:text-yellow-300`}>
               <FaLinkedin />

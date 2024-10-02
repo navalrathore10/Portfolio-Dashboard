@@ -395,7 +395,8 @@ export default function AboutMe() {
 
                 {/*----------------------------------------------- Unsplash Insights */}
 
-                <div className={`unsplash w-full min-h-[400px] md:min-h-[300px] lg:min-h-min border-2 p-5 rounded-xl relative flex flex-col justify-between gap-5 overflow-hidden
+                <div className={`unsplash w-full min-h-[400px] md:min-h-[300px] lg:min-h-min border-2 p-5 rounded-xl shadow-xl
+                     relative flex flex-col justify-between gap-5 overflow-hidden
                     ${!toggled ? 'text-lighte3 bg-dark19 border-dark24' : 'bg-lightop10 border-white text-dark24'}`}>
 
                     {/* -------------------------- title */}
