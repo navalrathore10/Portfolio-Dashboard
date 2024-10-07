@@ -47,7 +47,7 @@ const FadeSlider = () => {
                     style={{ backgroundImage: `url(${slide.image})` }}>
                     
                     <div className="flex items-center justify-center w-full h-full backdrop-blur-sm rounded-2xl bg-black bg-opacity-10">
-                        <div className="text-white text-2xl lg:text-3xl xl:text-4xl font-bold">{slide.text}</div>
+                        <div className="text-white sm:text-2xl lg:text-3xl xl:text-4xl font-bold">{slide.text}</div>
                     </div>
                 </div>
             ))}

@@ -47,7 +47,7 @@ export default function AboutMe() {
             description: "Details about Project One",
             details: "This Project was initially made for an Assignment.",
             techStack: ["React", "Tailwind"],
-            imagePath: "/img/picload1-min.png", // Image path or URL
+            imagePath: "/img/mockuppicload.png", // Image path or URL
             projectUrl: "https://picloadnavalrathore.netlify.app/" // Redirect to Live Project 
         },
         {

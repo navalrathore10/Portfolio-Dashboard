@@ -255,8 +255,8 @@ export default function Home() {
       {/*------------------------------------------------------------------- row-2 */}
 
       <Link to={'/works/development'}
-        className={`w-full h-[100px] inline-flex flex-nowrap my-5  shadow-xl overflow-hidden rounded-3xl
-               text-8xl text-syne
+        className={`w-full h-[50px] md:h-[100px] inline-flex flex-nowrap my-5  shadow-xl overflow-hidden rounded-xl md:rounded-3xl
+               text-5xl md:text-8xl text-syne
               ${toggled ? 'bg-dark17 text-lighte3' : 'bg-white text-dark17'}`}>
         <ul className="flex items-center justify-center font-semibold md:justify-start [&_li]:mx-8 animate-infinite-scroll  ">
           <li className=''>Projects</li>
