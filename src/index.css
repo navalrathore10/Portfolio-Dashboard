@@ -83,6 +83,26 @@
 
 
 
+.hero-background {
+  background-image: url('https://your-image-url.com');
+  /* Replace with your own background image URL */
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Smooth scrolling for better user experience */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Section styling */
+section {
+  padding: 100px 0;
+}
+
+
+
 
 @tailwind base;
 @tailwind components;
