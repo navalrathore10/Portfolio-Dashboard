@@ -54,7 +54,7 @@ export default function Designing() {
                 </div>
                 <div className="brezza">
                     <div className="car-image px-11 w-full h-min">
-                        <img src="https://github.com/navalrathore10/Picload-Naval-Rathore/blob/master/src/assets/NRZ-2000.png?raw=true"
+                        <img src="https://github.com/navalrathore10/Portfolio-Dashboard/blob/main/public/img/brezza.png?raw=true"
                             alt="" width={'100%'}
                             className={`
                             ${carColor == 'blue' ? 'hue-rotate-[155deg]' :
