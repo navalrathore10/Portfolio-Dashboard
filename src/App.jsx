@@ -8,7 +8,7 @@ import AboutMe from './pages/AboutMe';
 import Works from './pages/Works';
 import Explorations from './pages/Explorations';
 import ContactMe from './pages/ContactMe';
-import Development from './components/development';
+import Development from './components/development.jsx';
 import Photography from './components/Photography';
 import Designing from './components/Designing';
 
