@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Development from '../components/development.jsx';
+import Development from '../components/Development';
 import Photography from '../components/Photography';
 import Designing from '../components/Designing';
 import { useToggle } from '../ToggleContext';
