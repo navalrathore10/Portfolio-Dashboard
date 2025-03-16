@@ -10,6 +10,7 @@ export default function CodeDisplay({ code }) {
         navigator.clipboard.writeText(code);
         setCopied(true);
         setTimeout(() => setCopied(false), 2000);
+        
     };
 
     return (
