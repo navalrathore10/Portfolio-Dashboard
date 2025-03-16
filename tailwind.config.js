@@ -24,15 +24,16 @@ export default {
         lightop40: 'var(--lightop40-color)',
         lightop60: 'var(--lightop60-color)',
         lightop80: 'var(--lightop80-color)',
-        kavya: 'var(--kavya-color)'
-
-        ,
 
         prim: 'var(--prim-color)',
         dark: 'var(--dark-color)'
       },
       animation: {
         'infinite-scroll': 'infinite-scroll 25s linear infinite'
+      },
+      writingMode: {
+        'vertical-rl': 'vertical-rl',
+        'vertical-lr': 'vertical-lr',
       },
       keyframes: {
         'infinite-scroll': {
@@ -42,6 +43,15 @@ export default {
       }
     },
   },
+  safelist: [
+    "col-span-4",
+    "col-span-8",
+    "row-span-1",
+    "row-span-2",
+    "transition-all",
+    "duration-500",
+    "ease-in-out"
+  ],
   plugins: [
     require('tailwind-scrollbar-hide')
   ],

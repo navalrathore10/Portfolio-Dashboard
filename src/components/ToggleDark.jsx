@@ -2,7 +2,6 @@ import React from 'react';
 import { FaMoon } from "react-icons/fa";
 import { IoSunny } from "react-icons/io5";
 
-// Named export for ToggleDark
 export const ToggleDark = function ToggleDark({ checked, onChange }) {
     return (
         <div className="flex justify-center items-center">

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const Section = ({ title, content }) => {
     return (
         <>
-            <section key={i} className="min-h-screen flex flex-col items-center justify-center p-10">
+            <section key={1} className="min-h-screen flex flex-col items-center justify-center p-10">
                 <motion.h2 
                     className="text-4xl font-bold mb-4"
                     initial={{ opacity: 0, y: 50 }}

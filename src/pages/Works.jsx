@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import Development from '../components/Development.jsx';
+import Development from '../components/development.jsx';
 import Photography from '../components/Photography';
 import Designing from '../components/Designing';
 import { useToggle } from '../ToggleContext';
 import { Link, Outlet } from 'react-router-dom';
+import { MotionConfig } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 
 export default function Works() {
@@ -22,7 +24,12 @@ export default function Works() {
 
 
   return (
-    <div className="p-6 text-white min-h-screen relative">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 1.3 }}
+      className="p-6 text-white min-h-screen relative">
       <div className={`inner h-min w-full pb-5 mx-auto relative
             ${niche === 'Development' ? 'lg:w-[700px]' : 'lg:w-[90%]'}
             `}>
@@ -52,6 +59,6 @@ export default function Works() {
         <Outlet />
 
       </div>
-    </div>
+    </motion.div>
   );
 }

@@ -7,7 +7,7 @@ export const useToggle = () => useContext(ToggleContext);
 export const ToggleProvider = ({ children }) => {
     const [toggled, setToggled] = useState(false);
 
-    const darkModeHandler = () => setToggled(!toggled);
+    const darkModeHandler = () => setToggled((prev) => !prev);
 
     return (
         <ToggleContext.Provider value={{ toggled, darkModeHandler }}>

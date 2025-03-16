@@ -12,14 +12,12 @@ export default function Sidebar({ toggled, onToggle, children }) {
         <>
             <div className="w-[300px] flex">
                 <div className={`flex flex-col justify-between py-5 items-center social-strip w-[80px] border-e-2 ${!toggled ? 'border-dark24' : 'border-white'}`}>
-                    <div className={`img w-[50px] h-[50px] overflow-hidden rounded-full border-2 ${!toggled ? 'border-dark24' : 'border-white'}`}>
-                        <img src="
+                        <div className={`img w-[50px] h-[50px] overflow-hidden rounded-full border-2 ${!toggled ? 'border-dark24' : 'border-white'}`}>
+                            <img src="
                         https://images.unsplash.com/profile-1661966219494-f87fcbcf7937image?bg=fff&crop=faces&dpr=1&h=150&w=150&auto=format&fit=crop&q=60&ixlib=rb-4.0.3
-                        "
-                            style={{ backgroundColor: 'yellow', width: '100%', height: '100%' }}
-                            alt="PP" />
-                        {/*  */}
-                    </div>
+                        "/>
+                            {/*  */}
+                        </div>
                     <div className="logo w-[25px] h-min">
                         <img src="https://github.com/navalrathore10/Picload-Naval-Rathore/blob/master/src/assets/Untitled-11.png?raw=true"
                             alt="" width={'100%'} height={'100%'} className={`${toggled ? '' : 'invert'} `} />

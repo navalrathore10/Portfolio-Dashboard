@@ -1,18 +1,14 @@
 import React, { useState } from 'react';
 import { useToggle } from '../ToggleContext';
-import { motion } from 'framer-motion';
-
 
 export default function Designing() {
+
     const { toggled } = useToggle();
     const [carColor, setCarColor] = useState('');
 
-    return (<>
-        <motion.div initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 1.3 }}>
-            <div className={`pb-5 px-5 md:pb-11 mt-5 rounded-3xl w-full ${toggled ? 'bg-dark24' :
+    return (
+        <>
+            <div className={`pb-5 md:pb-11 mt-5 rounded-3xl w-full ${toggled ? 'bg-dark24' :
                 carColor == 'blue' ? 'bg-blue-200' :
                     carColor == 'green' ? 'bg-green-200' :
                         carColor == 'pink' ? 'bg-red-200' :
@@ -51,8 +47,8 @@ export default function Designing() {
                     ></button>
                 </div>
             </div>
+
             <div className={`text-center w-full mt-5 text-syne ${toggled ? 'text-dark24' : 'text-lighte3'}`}> More Coming Soon</div>
-        </motion.div>
-    </>
+        </>
     );
 }
