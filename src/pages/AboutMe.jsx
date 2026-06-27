@@ -73,8 +73,8 @@ export default function AboutMe() {
     ];
 
     const unsplashdata = {
-        views: 291850,
-        downloads: 3565
+        views: 700000,
+        downloads: 7500
     }
     const [selectedProject, setSelectedProject] = useState(projects[0]); // Default to the first project
 
