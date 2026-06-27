@@ -23,8 +23,8 @@ export default function Home() {
   const { toggled } = useToggle();
 
   const unsplashdata = {
-    views: 291850,
-    downloads: 3565
+    views: 700000,
+    downloads: 7500
   }
 
   if (loading) return <p>Loading...</p>;
